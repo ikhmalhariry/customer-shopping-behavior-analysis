@@ -1,2 +1,2 @@
 # customer-shopping-behavior-analysis
-Customer behavior
+Customer shopping behavior: Explanatory Data Analysis and Statistical Insights
