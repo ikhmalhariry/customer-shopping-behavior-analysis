@@ -14,6 +14,7 @@ head(customer_shopping_behavior)
 #   `Subscription Status` <chr>, `Shipping Type` <chr>, `Discount Applied` <chr>,
 #   `Promo Code Used` <chr>, `Previous Purchases` <dbl>, `Payment Method` <chr>,
 #   `Frequency of Purchases` <chr>
+
 str(customer_shopping_behavior)
 tibble [3,900 × 18] (S3: tbl_df/tbl/data.frame)
  $ Customer ID           : num [1:3900] 1 2 3 4 5 6 7 8 9 10 ...
@@ -34,6 +35,7 @@ tibble [3,900 × 18] (S3: tbl_df/tbl/data.frame)
  $ Previous Purchases    : num [1:3900] 14 2 23 49 31 14 49 19 8 4 ...
  $ Payment Method        : chr [1:3900] "Venmo" "Cash" "Credit Card" "PayPal" ...
  $ Frequency of Purchases: chr [1:3900] "Fortnightly" "Fortnightly" "Weekly" "Weekly" ...
+
 summary(customer_shopping_behavior)
   Customer ID          Age           Gender          Item Purchased    
  Min.   :   1.0   Min.   :18.00   Length:3900        Length:3900       
